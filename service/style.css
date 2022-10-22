@@ -1,0 +1,78 @@
+.service-content-text{
+    width: 25rem !important;
+    padding-left: 4rem;
+}
+.button{
+    display: inline-block;
+    background-color: black !important;
+    color:white !important;
+    padding: .75rem 1rem;
+    border-radius: .5rem !important;
+    transition: .4s;
+  }
+  .button:hover{
+    background-color:grey !important;
+    color: white !important;
+  }
+
+  .home-loan-img{
+      border-radius: 5rem 5rem;
+  }
+
+  /* ======================break points ================================= */
+
+  @media screen and (max-width:1126px) {
+    .home-loan-img {
+        width: 30rem;
+    }
+    .service-content-text {
+        width: 20rem !important;
+        padding-left: 2rem;
+    }
+  }
+  @media screen and (max-width:900px) {
+    /* .service-content-text {
+        
+    }
+    .service-content {
+        flex-direction: column !important;
+    } */
+    .home-loan-img {
+        width: 25rem;
+        height: 20rem;
+    }
+    .service-content-text {
+        width: 17rem !important;
+        padding-left: 2rem;
+        margin-left:0 !important ;
+    }
+  }
+
+  @media screen and (max-width:769px) {
+      .service-content{
+          flex-direction: column !important;
+         align-items: center;
+         
+      }
+      .service-content-text{
+        margin-top: 3rem;
+        padding-left: 0;
+        width:100% !important;
+        align-items: center !important;
+        display: flex !important;
+        flex-direction: column !important;
+      }
+  }
+  @media screen and (max-width:555px) {
+    .service-content-text{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+  }
+  @media screen and (max-width:426px){
+    .home-loan-img {
+        width: 15rem;
+        height: 10rem;
+        border-radius: 2rem 2rem;
+    }
+  }
